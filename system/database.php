@@ -8,8 +8,12 @@
  * @link      http://motoko.axxim.net
  */
 
-class Database extends Motoko {
+class Database {
 	
-	
+	public function __construct() {
+		require_once('app/config.php');
+	}
 	
 }
+
+/* Location: ./system/database.php */

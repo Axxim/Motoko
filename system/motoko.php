@@ -8,15 +8,13 @@
  * @link      http://motoko.axxim.net
  */
 
-
 class Motoko {
-	
-	public function __construct() {
-		echo "Hello world!";
-	}
 
-	public function __autoload($class_name) {
-		include $class_name . '.php';
+	public function __construct() {
+		include 'loader.php';
+		$loader = new Loader();
+		
+		$db = new Database();
 	}
 	
 }

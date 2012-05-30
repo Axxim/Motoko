@@ -8,7 +8,8 @@
  * @link      http://motoko.axxim.net
  */
 
-define('public', true);
+define('PUBLIC', true);
+define('DEBUG', false);
 
 /*
  *---------------------------------------------------------------

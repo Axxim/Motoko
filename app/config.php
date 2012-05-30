@@ -1,4 +1,4 @@
-<?php if(!defined('public')) die('Access to this file is not permitted.');
+<?php if(!defined('PUBLIC')) die('Access to this file is not permitted.');
 /**
  * Config - Motoko's Config File
  *
@@ -15,3 +15,5 @@ $config['database'] = array(
 	'username' => '',
 	'password' => ''
 );
+
+/* Location: ./app/config.php */
