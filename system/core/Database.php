@@ -16,4 +16,4 @@ class Database {
 	
 }
 
-/* Location: ./system/database.php */
+/* Location: ./system/core/Database.php */

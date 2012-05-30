@@ -33,7 +33,7 @@ if(version_compare(PHP_VERSION, '5.3.0') <= 0) {
  *
  */
 
-require_once 'system/motoko.php';
+require_once 'system/core/Motoko.php';
 $motoko = new Motoko\Motoko();
 
 /* Location: ./index.php */

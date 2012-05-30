@@ -11,12 +11,15 @@
 class Motoko {
 
 	public function __construct() {
-		include 'loader.php';
+		include 'Loader.php';
 		$loader = new Loader();
 		
+		$logger = new Logger();
 		$db = new Database();
+		
+		$logger->log("Motoko Loaded");
 	}
 	
 }
 
-/* Location: ./system/motoko.php */
+/* Location: ./system/core/Motoko.php */

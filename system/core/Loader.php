@@ -20,4 +20,4 @@ class Loader {
 	}
 }
 
-/* Location: ./system/loader.php */
+/* Location: ./system/core/Loader.php */
